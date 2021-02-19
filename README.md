@@ -13,5 +13,5 @@ No inicializar aplicação, fazer o registro do app passando o ID do projeto fir
 
 <br>
 Feito isso, é possivel através do site firebase, enviar notificações para um ou todos os dispositivos registrados. <br>
-Caso queira enviar para um dispositivo expecifico, é necessário armazenar o código gerado no momento registro do dispositivo.
+Caso queira enviar para um dispositivo específico, é necessário armazenar o código gerado no momento registro do dispositivo.
 
