@@ -29,11 +29,13 @@ export class AppComponent {
     });
   }
 
-
+  //Ao abrir a aplicação, ela se registra no projeto do firebase atraves do senderID.
+  //Estando regitrado, quando acessar o firebase e enviar notificações por la, os dipositivos registrados
+  //receberam a notificação.
   private inicializaFirebase(){
     const options: PushOptions = {
       android:{
-        senderID: 'XXXXXXXXXXX'
+        senderID: 'XXXXXXX' // código Id do projeto gerado no firebase
       }
     }
 
